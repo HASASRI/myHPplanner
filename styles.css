@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    font-color:#0a0726;
+    background-color: #090979;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color:#170d74;
+    margin-bottom: 20px;
+}
+
+#budget-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#description-input, #amount-input, #type-select, #month-select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.month-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0d1d74;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: default;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.budget-summary {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border:#0a0726;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #0a0726;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+.balance-box {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0d1d74;
+    border: none;
+    border-radius: 5px;
+}
+.icons i {
+    color: red; /* This will set the color of all icons to red */
+    cursor: pointer; /* Optional: changes the cursor to a pointer on hover */
+}
+
+.edit-icon {
+    color: red; /* This targets the edit icon specifically */
+}
+
+.delete-icon {
+    color: red; /* This targets the delete icon specifically */
+}
+
